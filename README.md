@@ -1,4 +1,5 @@
 This BOT is a Telegram BOT, built in Node.js, that execute at moment 3 commands:
+
  1- Read a crypto name and find out it's actual value
  2- Read a city name and find out the actual weather
  3- Read a city name and find out the most rated place
