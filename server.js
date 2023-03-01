@@ -25,7 +25,7 @@ bot.onText(/\/list/, (msg) => {
 
 
 bot.onText(/\/crypto/, async (msg) => {
-        const cryptoNamePrompt = await bot.sendMessage(msg.chat.id, "Insert any crypto's name and I'll tell you it's actual value", {
+        const cryptoNamePrompt = await bot.sendMessage(msg.chat.id, "Insert the name of a crypto and I'll tell you its current value", {
             reply_markup: {
                 force_reply: true
             }
