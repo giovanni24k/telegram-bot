@@ -8,6 +8,6 @@ On every commands inserted, makes api calls with axios and return the datas for 
  
  3- Read a city name and find out the most rated place
   
- Technologies: Node.js, Express, Axios, Open Weather Map (for weather APIs), API Yelp Fusion (for yelp's apis)
+ Technologies: Node.js, Express, Axios, Open Weather Map (for weather APIs), API Yelp Fusion (for yelp APIs)
  
  Enjoy!
