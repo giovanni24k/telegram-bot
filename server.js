@@ -3,9 +3,9 @@ const app = express()
 const telegramBot = require("node-telegram-bot-api")
 const apiConfiguration = require("./config")
 const axios = require("axios")
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 8080
 require('dotenv').config();
-const  tokenBot = process.env.TOKEN_BOT
+const  tokenBot = process.env.TOKEN_BOT || 233;
 const tokenOpenWeatherMap = process.env.TOKEN_OPEN_WEATHER_MAP
 const tokenYelp = process.env.TOKEN_YELP
 const bot = new telegramBot(tokenBot, {polling: true})
